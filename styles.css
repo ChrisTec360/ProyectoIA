@@ -38,3 +38,9 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: underline; /* Subraya el enlace cuando se pasa el mouse sobre él */
 }
+
+.carousel-item img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
