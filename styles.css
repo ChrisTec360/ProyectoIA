@@ -39,8 +39,21 @@ header nav ul li a:hover {
     text-decoration: underline; /* Subraya el enlace cuando se pasa el mouse sobre él */
 }
 
+body {
+    background-color: #9f0909; /* Cambia el color de fondo del cuerpo de la página */
+}
+
 .carousel-item img {
     max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% del contenedor */
     height: auto; /* Permite que la altura se ajuste automáticamente */
 }
+
+
+/* Estilo para las imágenes dentro del slider */
+.carousel-item img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 450px; /* Establece una altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen dentro de su contenedor manteniendo la relación de aspecto */
+}
+
 
